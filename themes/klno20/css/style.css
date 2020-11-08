@@ -14,12 +14,18 @@ body {
     overflow-y: scroll;
 }
 
+h1 {
+    font-family: 'Big Shoulders Inline Text', cursive;
+    font-size: 40px;
+}
+
 /* Header */
 
 .site-header {
     flex: 0 0 auto;
     background-color: #abbaa8;
     color: #2b2e30;
+    font-family: 'Big Shoulders Inline Text', cursive;
 }
 
 .site-header a, .site-header a:visited {
@@ -52,6 +58,7 @@ text-decoration: none;
     flex: 1 0 auto;
     padding: 2em;
     text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .container {
