@@ -4,5 +4,5 @@ Tagline: Min portfolio för Designkursen
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/klaranord/Design-portfolio
-      icon: github
+      icon: fab fa-github-square
 ---
