@@ -6458,14 +6458,6 @@ readers do not read off random characters that represent icons */
 }
 
 * {
-  font-family: "Roboto", sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", serif;
-}
-
-* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -6567,4 +6559,26 @@ li a {
 .footer .social {
   float: right;
   font-size: 2rem;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  color: #333;
+}
+
+body {
+  background-color: #f8f8f6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+  color: #333;
 }

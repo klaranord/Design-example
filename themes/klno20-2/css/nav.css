@@ -42,8 +42,8 @@
 
 #nav a:hover, #nav-toggle:hover {
     text-decoration: none;
-    color: #7c4d43;
-    transition: 0.6s;
+    color: #f4ddcd;
+    transition: 0.4s;
 }
 
 #nav-toggle {
