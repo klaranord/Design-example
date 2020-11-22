@@ -7,8 +7,9 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/scss/variables';
 
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap');
-@import '../css/oldstyle';
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Roboto&display=swap');
+@import 'oldstyle';
+@import 'report.scss';
 
 * {
     font-family: 'Roboto', sans-serif;
@@ -28,7 +29,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poiret One', cursive;
     color: $text-color;
 
 }
