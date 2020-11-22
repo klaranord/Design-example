@@ -7,13 +7,13 @@ Template: kmom
 Kursmoment 4
 ==================
 <div class="sidebar">
-    <a href="kmom01">Kmom01</a>
-    <a href="kmom02">Kmom02</a>
-    <a href="kmom03">Kmom03</a>
-    <a href="kmom04">Kmom04</a>
-    <a href="kmom05">Kmom05</a>
-    <a href="kmom06">Kmom06</a>
-    <a href="kmom10">Kmom10</a>
+    <a href="kmom01"><h2>Kmom01</h2></a>
+    <a href="kmom02"><h2>Kmom02</h2></a>
+    <a href="kmom03"><h2>Kmom03</h2></a>
+    <a href="kmom04"><h2>Kmom04</h2></a>
+    <a href="kmom05"><h2>Kmom05</h2></a>
+    <a href="kmom06"><h2>Kmom06</h2></a>
+    <a href="kmom10"><h2>Kmom10</h2></a>
 </div>
 
 <div class="report-text">
