@@ -6621,7 +6621,7 @@ li a {
 }
 
 .reportpage h1 {
-  grid-column: span 2/4;
+  grid-column: 2;
   justify-self: center;
 }
 
@@ -6635,7 +6635,7 @@ li a {
 }
 
 .sidebar {
-  grid-column: 1/2;
+  grid-column: 1;
   border: 2px solid #294548;
   background-color: #f4ddcd;
   text-transform: uppercase;
@@ -6657,7 +6657,7 @@ li a {
 }
 
 .report-text {
-  grid-column: 2/4;
+  grid-column: 2;
   margin-bottom: 3em;
 }
 
