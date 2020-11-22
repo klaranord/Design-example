@@ -1,7 +1,10 @@
 /* report.scss */
+
+/* style for the landingpage */
 .landingpage {
     display: grid;
     gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .landingpage a {
@@ -49,10 +52,65 @@
     margin: 1em;
 }
 
+/* Style for the reportpage */
+
+.reportpage {
+    display: grid;
+    gap: 30px;
+}
+
+.reportpage h1 {
+    grid-column: span 2 / 4;
+    justify-self: center;
+}
+
+.reportpage h2 {
+    color: #f4917c;
+}
+
+.reportpage h2:hover {
+    color: #294548;
+    transition: color 0.2s;
+}
+
+.sidebar {
+    grid-column: 1 / 2;
+    border: 2px solid #294548;
+    background-color: #f4ddcd;
+    text-transform: uppercase;
+    border-radius: 20px;
+    box-shadow: 12px 12px 0px 0px #294548;
+    margin-right: 12px;
+
+}
+
+.sidebar a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: #f4917c;
+}
+
+.sidebar a:hover {
+    color: #294548;
+    transition: color 0.2s;
+}
+
+.report-text {
+    grid-column: 2 / 4;
+    margin-bottom: 3em;
+}
+
 @media (max-width: 767px) {
     .kmom-box,
     .landingpage h1,
-    .kmom-box.project {
+    .kmom-box.project,
+    .reportpage h1,
+    .report-text, {
         grid-column: span 4;
+    }
+
+    .sidebar {
+        display: none;
     }
 }
