@@ -6772,11 +6772,11 @@ li a {
 }
 
 p {
-  color: #333;
+  color: #fff;
 }
 
 body {
-  background-color: #fafafa;
+  background-color: #294548;
 }
 
 h1,
@@ -6786,5 +6786,9 @@ h4,
 h5,
 h6 {
   font-family: "Poiret One", cursive;
-  color: #333;
+  color: #fff;
+}
+
+.flash-img {
+  filter: grayscale(60%);
 }

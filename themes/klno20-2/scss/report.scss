@@ -34,7 +34,7 @@
     height: 100px;
     margin-right: 12px;
     margin-bottom: 12px;
-    box-shadow: 12px 12px 0px 0px #294548;
+    box-shadow: 12px 12px #294548;
 }
 
 .kmom-box:hover {
@@ -43,8 +43,8 @@
     height: 100px;
     margin-left: 12px;
     margin-top: 12px;
-    margin-bottom: 0px;
-    margin-right: 0px;
+    margin-bottom: inherit;
+    margin-right: inherit;
     box-shadow: none;
 }
 
@@ -79,7 +79,7 @@
     background-color: #f4ddcd;
     text-transform: uppercase;
     border-radius: 20px;
-    box-shadow: 12px 12px 0px 0px #294548;
+    box-shadow: 12px 12px #294548;
     margin-right: 12px;
 
 }

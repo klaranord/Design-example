@@ -1,5 +1,5 @@
 @import 'common';
-@import 'variables';
+@import 'variables-dark';
 
 * {
     font-family: 'Poiret One', cursive;
@@ -22,4 +22,8 @@ h6 {
     font-family: 'Poiret One', cursive;
     color: $text-color;
 
+}
+
+.flash-img {
+    filter: grayscale(60%);
 }

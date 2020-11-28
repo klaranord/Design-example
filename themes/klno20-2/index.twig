@@ -21,8 +21,12 @@
     <!-- Insert font choice here -->
 
     <!-- End -->
-    <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
-    <link rel="stylesheet" href="{{ theme_url }}/css/nav.css" type="text/css" />
+    {% if config.session.theme == "dark" %}
+        <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.css" type="text/css" />
+    {% else %}
+        <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
+        <link rel="stylesheet" href="{{ theme_url }}/css/nav.css" type="text/css" />
+    {% endif %}
 
 </head>
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
@@ -51,6 +55,7 @@
 </div>
 </header>
     <div class="main" id="main" role="main">
+        {{ dump(config.session) }}
         <div class="container">
             {{ content }}
         </div>
