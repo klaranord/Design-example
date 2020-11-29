@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "watch": "sass klno20test/scss/style.scss klno20/css/style.css --no-source-map --watch",
-    "watch-min": "sass klno20test/scss/style.scss klno20/css/style.min.css --no-source-map --watch",
+    "watch": "sass klno20-2/scss/style.scss klno20-2/css/style.css --no-source-map --watch",
+    "watch-min": "sass klno20-2/scss/style.scss klno20-2/css/style.min.css --no-source-map --style compressed --watch",
     "style": "npm run style-light && npm run style-dark",
     "style-min": "npm run style-light-min && npm run style-dark-min",
     "style-light": "sass klno20-2/scss/style.scss klno20-2/css/style.css --no-source-map",

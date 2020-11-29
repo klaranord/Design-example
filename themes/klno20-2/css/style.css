@@ -6526,6 +6526,11 @@ img {
   width: 180px;
 }
 
+.container img {
+  margin-bottom: 1.5em;
+  border-radius: 50px;
+}
+
 li {
   list-style: none;
 }
@@ -6538,8 +6543,6 @@ li a {
 /* Footer */
 .site-footer {
   flex: 0 0 auto;
-  background: #0c2f29;
-  color: #f4ddcd;
   padding: 2em;
 }
 
@@ -6547,12 +6550,7 @@ li a {
   padding-top: 0.6em;
 }
 
-.site-footer a {
-  color: #f4ddcd;
-}
-
 .site-footer a:hover {
-  color: #fa9782;
   transition: 0.6s;
 }
 
@@ -6672,10 +6670,8 @@ li a {
 }
 
 .landingpage h2 {
-  border-top-left-radius: 19px;
-  border-top-right-radius: 19px;
-  background-color: #f4ddcd;
-  color: #f4917c;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
   text-transform: uppercase;
 }
 
@@ -6684,16 +6680,13 @@ li a {
 }
 
 .kmom-box {
-  border: 2px solid #294548;
   border-radius: 20px;
   height: 100px;
   margin-right: 12px;
   margin-bottom: 12px;
-  box-shadow: 12px 12px #294548;
 }
 
 .kmom-box:hover {
-  border: 2px solid #294548;
   border-radius: 20px;
   height: 100px;
   margin-left: 12px;
@@ -6718,40 +6711,38 @@ li a {
   justify-self: center;
 }
 
-.reportpage h2 {
-  color: #f4917c;
-}
-
-.reportpage h2:hover {
-  color: #294548;
-  transition: color 0.2s;
-}
-
 .sidebar {
   grid-column: 1;
-  border: 2px solid #294548;
-  background-color: #f4ddcd;
   text-transform: uppercase;
-  border-radius: 20px;
-  box-shadow: 12px 12px #294548;
-  margin-right: 12px;
+  margin-left: 2em;
 }
 
 .sidebar a {
   text-decoration: none;
   display: block;
   padding: 1em;
-  color: #f4917c;
+  border-radius: 20px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  margin-top: 12px;
 }
 
 .sidebar a:hover {
-  color: #294548;
-  transition: color 0.2s;
+  margin-left: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-right: inherit;
+  box-shadow: none;
 }
 
 .report-text {
   grid-column: 2;
   margin-bottom: 3em;
+  margin: 1% 10%;
+}
+
+.report-text h3 {
+  font-size: 20px;
 }
 
 @media (max-width: 767px) {
@@ -6767,6 +6758,15 @@ li a {
     display: none;
   }
 }
+.site-footer a {
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.title h1 {
+  margin: 0.1em;
+}
+
 * {
   font-family: "Poiret One", cursive;
 }
@@ -6776,7 +6776,7 @@ p {
 }
 
 body {
-  background-color: #fafafa;
+  background-color: #f8f8f6;
 }
 
 h1,
@@ -6787,4 +6787,46 @@ h5,
 h6 {
   font-family: "Poiret One", cursive;
   color: #333;
+}
+
+.site-footer {
+  background: #0c2f29;
+  color: #f4ddcd;
+}
+
+.site-footer p {
+  color: #f4ddcd;
+}
+
+.site-footer a {
+  color: #f4ddcd;
+}
+
+.site-footer a:hover {
+  color: #f4917c;
+}
+
+.landingpage h2 {
+  background-color: #f4ddcd;
+  color: #f4917c;
+}
+
+.kmom-box {
+  background-color: #f8f8f6;
+  border: 2px solid #294548;
+  box-shadow: 12px 12px #294548;
+}
+
+.kmom-box:hover {
+  border: 2px solid #294548;
+}
+
+.sidebar a {
+  background-color: #f4ddcd;
+  border: 2px solid #294548;
+  box-shadow: 12px 12px #294548;
+}
+
+.reportpage h2 {
+  color: #f4917c;
 }

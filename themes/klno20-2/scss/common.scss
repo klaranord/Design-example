@@ -11,3 +11,12 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'oldstyle';
 @import '../css/nav';
 @import 'report';
+
+.site-footer a {
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.title h1 {
+    margin: 0.1em;
+}

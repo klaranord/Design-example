@@ -17,10 +17,8 @@
 }
 
 .landingpage h2 {
-    border-top-left-radius: 19px;
-    border-top-right-radius: 19px;
-    background-color: #f4ddcd;
-    color: #f4917c;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
     text-transform: uppercase;
 }
 
@@ -29,16 +27,13 @@
 }
 
 .kmom-box {
-    border: 2px solid #294548;
     border-radius: 20px;
     height: 100px;
     margin-right: 12px;
     margin-bottom: 12px;
-    box-shadow: 12px 12px #294548;
 }
 
 .kmom-box:hover {
-    border: 2px solid #294548;
     border-radius: 20px;
     height: 100px;
     margin-left: 12px;
@@ -64,41 +59,38 @@
     justify-self: center;
 }
 
-.reportpage h2 {
-    color: #f4917c;
-}
-
-.reportpage h2:hover {
-    color: #294548;
-    transition: color 0.2s;
-}
-
 .sidebar {
     grid-column: 1;
-    border: 2px solid #294548;
-    background-color: #f4ddcd;
     text-transform: uppercase;
-    border-radius: 20px;
-    box-shadow: 12px 12px #294548;
-    margin-right: 12px;
-
+    margin-left: 2em;
 }
 
 .sidebar a {
     text-decoration: none;
     display: block;
     padding: 1em;
-    color: #f4917c;
+    border-radius: 20px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    margin-top: 12px;
 }
 
 .sidebar a:hover {
-    color: #294548;
-    transition: color 0.2s;
+    margin-left: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-right: inherit;
+    box-shadow: none;
 }
 
 .report-text {
     grid-column: 2;
     margin-bottom: 3em;
+    margin: 1% 10%;
+}
+
+.report-text h3 {
+    font-size: 20px;
 }
 
 @media (max-width: 767px) {
