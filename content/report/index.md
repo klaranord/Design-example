@@ -13,31 +13,31 @@ Redovisningssida för Design
 </div>
 
 <div class="kmom-box">
-<a href="report/kmom02"><h2>Kmom02</h2></a>
-<p>SASS och Typografi</p>
+<a href="report/kmom02"><h2>Kmom02</h2>
+<p>SASS och Typografi</p></a>
 </div>
 
 <div class="kmom-box">
-<a href="report/kmom03"><h2>Kmom03</h2></a>
-<p>Layout</p>
+<a href="report/kmom03"><h2>Kmom03</h2>
+<p>Layout</p></a>
 </div>
 
 <div class="kmom-box">
-<a href="report/kmom04"><h2>Kmom04</h2></a>
-<p>Färg</p>
+<a href="report/kmom04"><h2>Kmom04</h2>
+<p>Färg</p></a>
 </div>
 
 <div class="kmom-box">
-<a href="report/kmom05"><h2>Kmom05</h2></a>
-<p>Bild</p>
+<a href="report/kmom05"><h2>Kmom05</h2>
+<p>Bild</p></a>
 </div>
 
 <div class="kmom-box">
-<a href="report/kmom06"><h2>Kmom06</h2></a>
-<p>Tillgänglighet och prestanda</p>
+<a href="report/kmom06"><h2>Kmom06</h2>
+<p>Tillgänglighet och prestanda</p></a>
 </div>
 
 <div class="kmom-box project">
-<a href="report/kmom10"><h2>Kmom10</h2></a>
-<p>Projekt och examination</p>
+<a href="report/kmom10"><h2>Kmom10</h2>
+<p>Projekt och examination</p></a>
 </div>

@@ -65,14 +65,14 @@ text-decoration: none;
 margin: 0 20%;
 }
 
-img {
-    width: 180px;
+.container img {
+    width: 340px;
 }
 
-.container img {
+/* .container img {
     margin-bottom: 1.5em;
     border-radius: 50px;
-}
+} */
 
 li {
     list-style: none;

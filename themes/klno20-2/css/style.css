@@ -6522,15 +6522,14 @@ h1 {
   margin: 0 20%;
 }
 
-img {
-  width: 180px;
-}
-
 .container img {
-  margin-bottom: 1.5em;
-  border-radius: 50px;
+  width: 340px;
 }
 
+/* .container img {
+    margin-bottom: 1.5em;
+    border-radius: 50px;
+} */
 li {
   list-style: none;
 }
@@ -6767,12 +6766,24 @@ li a {
   margin: 0.1em;
 }
 
+.color-palette {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-img {
+  width: 180px;
+  margin-bottom: 1.5em;
+  border-radius: 50px;
+}
+
 * {
   font-family: "Poiret One", cursive;
 }
 
 p {
   color: #333;
+  font-size: 18px;
 }
 
 body {

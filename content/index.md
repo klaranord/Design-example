@@ -6,7 +6,7 @@ Description: Startsidan
 Min portfolio
 ==========================
 
-![ ](assets/img/logo.png)
+<img class="logo-img" src="assets/img/logo.png" alt="Logga klno20"/>
 
 
 Här kan du läsa om och se min utvecklig genom kursen Teknisk webbdesign och användbarhet, a.k.a *Design* på Blekinge Tekniska Högskola.  
