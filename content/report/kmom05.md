@@ -17,7 +17,11 @@ Kursmoment 5
 </div>
 
 <div class="report-text">
-<p>
-Redovisningstext kommer snart!
-</p>
+    <p>
+    <i>-- Lyssna på min pluggmusik under tiden du läser min redovisningstext vettja --</i>  
+    <br>
+    </p>
+        <div class="embed-container">
+            <iframe src="https://www.youtube.com/embed/xlcywgEMuGI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 </div>
