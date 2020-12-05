@@ -2,6 +2,7 @@
 Title: Analys  
 Description: Detta är sidan för analysc
 Template: report
+icon: fas fa-lightbulb
 ---
 
 Analyssida för Design

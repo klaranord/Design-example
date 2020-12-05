@@ -1,6 +1,7 @@
 ---
 Title: Hem
 Description: Startsidan
+icon: fas fa-home
 ---
 
 Min portfolio

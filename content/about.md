@@ -1,6 +1,7 @@
 ---
 Title: Om
 Description: Om webbutvecklaren
+icon: fas fa-user-alt 
 ---
 
 Om mig

@@ -44,7 +44,7 @@ Kursmoment 4
 
 <h3>Hur valde du att lösa ditt dark theme? Gjorde du en kopia på ditt vanliga tema? Eller löste du det med imports?</h3>
 <p>
-För det mörka temat så har jag gjort en kopia på mitt ljusa tema och justerade flashbilden med hjälp av en filtereffekt där jag ändrade nyans på bilden som jag tyckte passade bättre för ett mörkare läge. Den nya flashbildens färgpalett fick stå som grund för färgschemat på mitt mörka tema med en komplementär färgskala i blått/grönt mot en mörk gul.  
+För det mörka temat så har jag gjort en kopia på mitt ljusa tema och justerade flashbilden med hjälp av en filtereffekt där jag ändrade nyans på bilden som jag tyckte passade bättre för ett mörkare läge. Den nya flashbildens färgpalett fick stå som grund för färgschemat på mitt mörka tema med en komplementär färgskala i blått/grönt mot en mörk gul. Jag har även lagt filter på min profilbild med lägre opacitet för att göra den snällare mot ögonen i det mörka läget. 
 </p>
 <table class="color-palette" style="border-spacing: 4px; border-collapse: separate">
 <tr>

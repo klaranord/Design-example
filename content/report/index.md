@@ -2,6 +2,7 @@
 Title: Redovisning  
 Description: Detta är sidan för redovisning
 Template: report
+icon: fas fa-file-alt
 ---
 
 Redovisningssida för Design

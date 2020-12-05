@@ -1,0 +1,72 @@
+@import 'common';
+@import 'variables';
+@import 'gallery';
+
+* {
+    font-family: 'Poiret One', cursive;
+}
+
+p {
+    color: $text-color;
+    font-size: 18px;
+}
+
+body {
+    background-color: $background-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poiret One', cursive;
+    color: $text-color;
+}
+
+// Footer
+.site-footer {
+    background: $footer-background-color;
+    color: $footer-color;
+}
+
+.site-footer p {
+    color: $footer-color;
+}
+
+.site-footer a {
+    color: $footer-color;
+}
+
+.site-footer a:hover {
+    color: $site-footer-a-hover;
+}
+
+// Landingpage
+.landingpage h2 {
+    background-color: $landingpage-h2-backgroundcolor;
+    color: $landingpage-h2-color;
+}
+
+// Kmom-boxes
+.kmom-box {
+    background-color: $kmombox-background-color;
+    border: 2px solid $kmombox-border;
+    box-shadow: 12px 12px $kmombox-border;
+}
+
+.kmom-box:hover {
+    border: 2px solid $kmombox-border;
+}
+
+//Style for sidebar
+.sidebar a {
+    background-color: $sidebar-background-color;
+    border: 2px solid $sidebar-border;
+    box-shadow: 12px 12px $sidebar-box-shadow;
+}
+
+.reportpage h2 {
+    color: $sidebar-color;
+}

@@ -1,0 +1,108 @@
+/* report.scss */
+
+/* style for the landingpage */
+.landingpage {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.landingpage a {
+    text-decoration: none;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.landingpage h2 {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    text-transform: uppercase;
+}
+
+.kmom-box.project {
+    grid-column: span 3;
+}
+
+.kmom-box {
+    border-radius: 20px;
+    height: 100px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+}
+
+.kmom-box:hover {
+    border-radius: 20px;
+    height: 100px;
+    margin-left: 12px;
+    margin-top: 12px;
+    margin-bottom: inherit;
+    margin-right: inherit;
+    box-shadow: none;
+}
+
+.kmom-box p {
+    margin: 1em;
+}
+
+/* Style for the reportpage */
+
+.reportpage {
+    display: grid;
+    gap: 30px;
+}
+
+.reportpage h1 {
+    grid-column: 2;
+    justify-self: center;
+}
+
+.sidebar {
+    grid-column: 1;
+    text-transform: uppercase;
+    margin-left: 2em;
+}
+
+.sidebar a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    border-radius: 20px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.sidebar a:hover {
+    margin-left: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-right: inherit;
+    box-shadow: none;
+}
+
+.report-text {
+    grid-column: 2;
+    margin-bottom: 3em;
+    margin: 1% 10%;
+}
+
+.report-text h3 {
+    font-size: 20px;
+}
+
+@media (max-width: 767px) {
+    .kmom-box,
+    .landingpage h1,
+    .kmom-box.project,
+    .reportpage h1,
+    .report-text, {
+        grid-column: span 4;
+    }
+
+    .sidebar {
+        display: none;
+    }
+}

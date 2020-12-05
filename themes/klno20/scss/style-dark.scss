@@ -1,0 +1,86 @@
+@import 'common';
+@import 'variables-dark';
+@import 'gallery';
+
+//Basic style settings
+* {
+    font-family: 'Poiret One', cursive;
+}
+
+p {
+    color: $text-color;
+}
+
+body {
+    background-color: $background-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poiret One', cursive;
+    color: $h-color;
+}
+
+//Style for images
+.flash-img {
+    filter: hue-rotate(40deg);
+}
+
+img {
+    filter: opacity(0.8);
+}
+
+// Style for header
+.title h1 {
+    color: $titlecolor;
+}
+
+.title p {
+    color: $titlecolor;
+}
+
+//Style for footer
+.site-footer {
+    background-color: $footer-background-color;
+    color: $footer-color;
+}
+
+.site-footer a {
+    color: $footer-a-color;
+}
+
+.site-footer a:hover {
+    color: $site-footer-a-hover;
+}
+
+//Style for landingpage
+.landingpage h2 {
+    background-color: $landingpage-h2-backgroundcolor;
+    color: $landingpage-h2-color;
+}
+
+//Style for kmomboxes
+.kmom-box {
+    border: 2px solid $kmombox-border;
+    box-shadow: 12px 12px $kmombox-shadow;
+    background-color: $kmombox-background-color;
+}
+
+.kmom-box:hover {
+    border: 2px solid $kmombox-border;
+}
+
+//Style for sidebar
+.sidebar a {
+    background-color: $sidebar-background-color;
+    border: 2px solid $sidebar-border;
+    box-shadow: 12px 12px $sidebar-box-shadow;
+}
+
+.reportpage h2 {
+    color: $sidebar-color;
+}
