@@ -6842,6 +6842,10 @@ h6 {
   color: #edebe8;
 }
 
+.container a {
+  color: #f8f8f6;
+}
+
 .flash-img {
   filter: hue-rotate(40deg);
 }

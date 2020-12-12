@@ -6844,6 +6844,10 @@ h6 {
   color: #333;
 }
 
+.container a {
+  color: #333;
+}
+
 .site-footer {
   background: #0c2f29;
   color: #f4ddcd;

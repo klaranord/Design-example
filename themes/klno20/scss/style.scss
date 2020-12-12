@@ -26,6 +26,10 @@ h6 {
     color: $text-color;
 }
 
+.container a {
+    color: $link-color;
+}
+
 // Footer
 .site-footer {
     background: $footer-background-color;

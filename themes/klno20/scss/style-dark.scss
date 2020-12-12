@@ -25,6 +25,10 @@ h6 {
     color: $h-color;
 }
 
+.container a {
+    color: $link-color;
+}
+
 //Style for images
 .flash-img {
     filter: hue-rotate(40deg);

@@ -2,7 +2,7 @@
 Title: Analys  
 Description: Detta är sidan för analysc
 Template: report
-icon: fas fa-lightbulb
+icon: fas fa-chart-pie
 ---
 
 Analyssida för Design
@@ -15,7 +15,7 @@ Analyssida för Design
 
 <div class="kmom-box">
 <a href="analysis/02_load"><h2>2</h2>
-<p>Laddning</p></a>
+<p>Laddningstider</p></a>
 </div>
 
 <div class="kmom-box">

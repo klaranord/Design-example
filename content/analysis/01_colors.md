@@ -31,7 +31,7 @@ Resultat
 <td style="height: 50px; width: 50px; background-color: #49b975">#49b975
 </tr>
 </table>
-![Screenshot av blocket.se](../assets/img/blocket.png "Blockets startsida")
+![Screenshot av blocket.se](../assets/img/colour/blocket.png "Blockets startsida")
 
 Blocket använder sig av en kvadratiskt fördelad färgpalett i sin design, den röda primärfärgen har en genomgående framställning i både bakgrundsfärg och detaljer på sidan som illustrationer tillsammans med gröna och gula detaljer samt en blå färg för knappar och länkar.  
 <br>
@@ -55,7 +55,7 @@ __Brödtext:__ BlocketSans-Medium, sans-serif.  <br>
 <td style="height: 50px; width: 50px; background-color: #aca435">#aca435
 </tr>
 </table>
-![Screenshot av pensionsmyndigheten.se](../assets/img/pensionsmyndigheten.png "Pensionsmyndighetens startsida")
+![Screenshot av pensionsmyndigheten.se](../assets/img/colour/pensionsmyndigheten.png "Pensionsmyndighetens startsida")
 
 Pensionsmyndigheten använder sig av en ganska monokrom färgpalett i deras ikoniska orangea tema med vissa komplementfärger som den blå och gröna i illustrationer och knappar. En Call-To-Action färg finns i en lila "Tyck till" knapp som finns på sidans högerkant.    
 
@@ -78,8 +78,8 @@ __Brödtext:__ Pensio, sans-serif.  <br>
 <td style="height: 50px; width: 50px; background-color: #0e799d">#0e799d
 </tr>
 </table>
-![Screenshot av hemnet.se](../assets/img/hemnet-topp.png "Hemnets startsida")
-![Screenshot av hemnet.se](../assets/img/hemnet-botten.png "Hemnets startsida")
+![Screenshot av hemnet.se](../assets/img/colour/hemnet-topp.png "Hemnets startsida")
+![Screenshot av hemnet.se](../assets/img/colour/hemnet-botten.png "Hemnets startsida")
 
 Hemnet använder sig av en analog färgpalett med en bred variation av gröna nyanser tillsammans med grann-nyanser av blått till knappar och länkar. Bortsett från denna färgskala finns även några få färgskvättar av lila, rött och fler nyanser av blått och grönt i de olika ikonerna för bostadsrätt, villa, tomt och så vidare i Hemnets sökformulär.    
 <br>
