@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html class="no-js" lang="sv">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -31,7 +31,7 @@
 </head>
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
 <header class="site-header">
-<a id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
+<a id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="0">
     <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
     <span class="sr-only">Toggle Menu</span>
 </a>
@@ -51,13 +51,14 @@
                 {% else %}
                     {{ page.title }}
                 {% endif %}
+                {{ page.title }}
             </a>
         </li>
             {% endfor %}
     </ul>
 </div>
 <div class="flash-region">
-  <img class="flash-img" src="{{ base_url }}/image/header-pexels-2.png?sc=banner1&a=40,0,0,0">
+  <img class="flash-img" src="{{ base_url }}/image/header-pexels-2.png?sc=banner1&a=40,0,0,0" alt="Flashbild över skog">
 </div>
 </header>
     <div class="main" id="main" role="main">

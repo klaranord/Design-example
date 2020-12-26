@@ -1,7 +1,7 @@
 Analys av webbsidors laddningstider
 =======================
 
-###Denna analys syftar till att dokumentera olika webbplatsers laddningstid och vilka förbättringsaspekter de skulle kunna implementera för att förbättra laddningstid och användbarhet.
+__Denna analys syftar till att dokumentera olika webbplatsers laddningstid och vilka förbättringsaspekter de skulle kunna implementera för att förbättra laddningstid och användbarhet.__  
 <br>
 
 Urval
@@ -16,7 +16,7 @@ Metod
 För att undersöka de olika webbplatsernas laddningstid använder jag mig av Devtools flik "networks" för att nå nödvändig information om laddningstid, storlek på filer och antalet requests med mera. Jag använder även Googles verktyg  PageSpeed Insight för att se ett övergripande betyg på webbplatsen samt vilka förbättringsmöjligheter som finns.  
 <br>
 
-[Länk till Google kalkylark med all data](https://docs.google.com/spreadsheets/d/1wCS2rTKxNly5llByGmVRCmGYox6_pgRzbVF4mjqGK2c/edit#gid=0)  
+[Länk till Google kalkylark med all data](https://docs.google.com/spreadsheets/d/1wCS2rTKxNly5llByGmVRCmGYox6_pgRzbVF4mjqGK2c/edit?usp=sharing)  
 <br>
 
 Resultat

@@ -1,7 +1,7 @@
 Färganalys
 =======================
 
-###Denna analys syftar till att dokumentera olika webbplatsers färgpalett och typografi samt argumentera kring valen av färg kontra den känsla som jag tror webbplatsen vill kommunicera med sitt färgval.  
+__Denna analys syftar till att dokumentera olika webbplatsers färgpalett och typografi samt argumentera kring valen av färg kontra den känsla som jag tror webbplatsen vill kommunicera med sitt färgval.__  
 <br>
 
 Urval
@@ -23,12 +23,12 @@ Resultat
 
 <table class="color-palette" style="border-spacing: 4px; border-collapse: separate">
 <tr>
-<td style="height: 50px; width: 50px; background-color: #ef414f">#ef414f
-<td style="height: 50px; width: 50px; background-color: #9a2631">#9a2631
-<td style="height: 50px; width: 50px; background-color: #4282c3">#4282c3
-<td style="height: 50px; width: 50px; background-color: #363433">#363433
-<td style="height: 50px; width: 50px; background-color: #eac35e">#eac35e
-<td style="height: 50px; width: 50px; background-color: #49b975">#49b975
+<td style="height: 50px; width: 50px; background-color: #ef414f">
+<td style="height: 50px; width: 50px; background-color: #9a2631">
+<td style="height: 50px; width: 50px; background-color: #4282c3">
+<td style="height: 50px; width: 50px; background-color: #363433">
+<td style="height: 50px; width: 50px; background-color: #eac35e">
+<td style="height: 50px; width: 50px; background-color: #49b975">
 </tr>
 </table>
 ![Screenshot av blocket.se](../assets/img/colour/blocket.png "Blockets startsida")
@@ -46,13 +46,13 @@ __Brödtext:__ BlocketSans-Medium, sans-serif.  <br>
 
 <table class="color-palette" style="border-spacing: 4px; border-collapse: separate">
 <tr>
-<td style="height: 50px; width: 50px; background-color: #cc4201">#cc4201
-<td style="height: 50px; width: 50px; background-color: #f18701">#f18701
-<td style="height: 50px; width: 50px; background-color: #fcb514">#fcb514
-<td style="height: 50px; width: 50px; background-color: #fef5e4">#fef5e4
-<td style="height: 50px; width: 50px; background-color: #a31a2e">#a31a2e
-<td style="height: 50px; width: 50px; background-color: #125687">#125687
-<td style="height: 50px; width: 50px; background-color: #aca435">#aca435
+<td style="height: 50px; width: 50px; background-color: #cc4201">
+<td style="height: 50px; width: 50px; background-color: #f18701">
+<td style="height: 50px; width: 50px; background-color: #fcb514">
+<td style="height: 50px; width: 50px; background-color: #fef5e4">
+<td style="height: 50px; width: 50px; background-color: #a31a2e">
+<td style="height: 50px; width: 50px; background-color: #125687">
+<td style="height: 50px; width: 50px; background-color: #aca435">
 </tr>
 </table>
 ![Screenshot av pensionsmyndigheten.se](../assets/img/colour/pensionsmyndigheten.png "Pensionsmyndighetens startsida")
@@ -69,13 +69,13 @@ __Brödtext:__ Pensio, sans-serif.  <br>
 
 <table class="color-palette" style="border-spacing: 4px; border-collapse: separate">
 <tr>
-<td style="height: 50px; width: 50px; background-color: #0ab70c">#0ab70c
-<td style="height: 50px; width: 50px; background-color: #39aa35">#39aa35
-<td style="height: 50px; width: 50px; background-color: #008d35">#008d35
-<td style="height: 50px; width: 50px; background-color: #45a366">#45a366
-<td style="height: 50px; width: 50px; background-color: #013a14">#013a14
-<td style="height: 50px; width: 50px; background-color: #1493bc">#1493bc
-<td style="height: 50px; width: 50px; background-color: #0e799d">#0e799d
+<td style="height: 50px; width: 50px; background-color: #0ab70c">
+<td style="height: 50px; width: 50px; background-color: #39aa35">
+<td style="height: 50px; width: 50px; background-color: #008d35">
+<td style="height: 50px; width: 50px; background-color: #45a366">
+<td style="height: 50px; width: 50px; background-color: #013a14">
+<td style="height: 50px; width: 50px; background-color: #1493bc">
+<td style="height: 50px; width: 50px; background-color: #0e799d">
 </tr>
 </table>
 ![Screenshot av hemnet.se](../assets/img/colour/hemnet-topp.png "Hemnets startsida")
