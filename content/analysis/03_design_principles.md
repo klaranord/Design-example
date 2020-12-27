@@ -24,41 +24,40 @@ Resultat
 På Johan Hedbergs hemsida ser vi en ganska stilren och enkel design med ett rektangulärt och ganska städat tema i en nedtonad färgskala i grått och lite bleklila. Bilderna som används är ljusa och är stämningsbidragande till den rena designen på sidan i övrigt. Webbsidan har en fixerad stående meny till vänster som sträcker sig över hela startidans höjd och nås vilken undersida som än besöks.   
 <br>
 
-När det kommer till designprinciper så hittar jag inte mer spännande element än en hover-effekt på länkar som visar en varm röd när man håller muspekaren över dem.
+När det kommer till designprinciper så hittar jag inte mer spännande element än en hover-effekt på länkar som visar en varm röd när man håller muspekaren över dem. Innehållet är uppdelat på ett klassiskt vis med meny till vänster och block med artiklar etc till höger i ett flöde.  
+<br>
 
+![Screenshot av matgeek.se](../assets/img/designprinciples/matgeek.png "Johan Hedbergs hemsida")  
 <br>
 
 ##Miriam Bryant
 
-Miriam Bryants hemsida ger direkt en tuff, cool känsla som ska spegla hennes personlighet och musik gissningsvis. Detta genom att visa en stor bild som sträcker sig över hela sidan föreställande henne i en mörk miljö med klotter, svart sminkning tagen med hårt blixt som ge en känsla av att bilden är tagen mitt i en nattklubb eller liknande. Över bilden går att läsa "miriam Bryant" stort och sedan finns länkar tull hennes sociala medier i nederkant med en pil som tar en längre ned på sidan när man klickar på den.   
-
+Miriam Bryants hemsida ger direkt en tuff, cool känsla som ska spegla hennes personlighet och musik gissningsvis. Detta genom att visa en stor bild som sträcker sig över hela sidan föreställande henne i en mörk miljö med klotter, svart sminkning tagen med hårt blixt som ge en känsla av att bilden är tagen mitt i en nattklubb eller liknande. Över bilden går att läsa "Miriam Bryant" stort och sedan finns länkar till hennes sociala medier i nederkant med en pil som tar en längre ned på sidan när man klickar på den.   
 <br>
-Där finn en sektioner längre ned på sidan med en mönstrad bakgrund som inte är fixerad utan glider långsammare än resten av sidan när man scrollar, vilket ger en 3D-effekt av att bakgrunden än längre bort och inte följer med resten av innehållet i sektionen.  
+
+I vänstra övre hörnet på startsidan finns en diskret meny som täcker hela sidan med en blå bakgrundsfärg med en fade-effekt när man klickar på den och visar de olika menyvalen centrerat på sidan med en hover-effekt av överstruken text. Om man klickar på ett menyval hamnar man inte på en ny undersida utan man tas längre ned på startsidan där det innehållet finns, eftersom hemsidan inte består av multipla sidor utan bara en enda längre sida.
+
+Det finns en sektioner nedåt på sidan med en mönstrad bakgrund som inte är fixerad utan glider långsammare än resten av sidan när man scrollar, vilket ger en 3D-effekt av att bakgrunden än längre bort och inte följer med resten av innehållet i sektionen. Hela sidan har en symmetri där allt innehåll är centrerat och uppdelat i olika block horisontellt.   
+<br>
+
+![Screenshot av miriambryantofficial.com](../assets/img/designprinciples/miriambryant.png "Miriam Bryants hemsida")  
 <br>
 
 ##Ellen Ekman
 
-På Ellen Ekmans startsida möts man av ett galleri av bilder från hennes verk som är ordnade i ett grid i tegelstenstil.
+På Ellen Ekmans startsida möts man av ett galleri av bilder från hennes verk som är ordnade i ett grid i tegelstenstil. Helheten på sidan är ljus och enkel vilket passar bra för att kontrastera mot hennes färgglada illustrationer. Menyn ligger överst på sidan horisontellt och ser likadan ut oavsett undersida, utom om man går in på hennes "Shop", där slussas man till en annan webbsida med likt utseende fast en illustration av en figur istället för logotypen "Ellen Ekman" som fungerar som hem-knapp. Den har även en hover-funktion som lägger en ljus opacitet över illustrationen.
 <br>
 
+![Screenshot av ellenekman.se](../assets/img/designprinciples/ellenekman.png "Ellen Ekmans hemsida")  
 <br>
 
 Analys och sammanfattning
 -----------------------
-De vanligaste förbättringsåtgärderna för mina valda webbsidor verkar vara att ta bort oanvänd JavaScipt, där alla tre sidor fick det förslaget.
-
-
-Om jag ska rangordna webbplatserna baserat på de resultat jag fått fram skulle jag placera den nystartade e-handeln stroms.com på första plats, då den fick bäst betyg i alla tester. På andra plats placerar jag tradera.com och på sista plats gucci.com. Gucci tar tredje plats eftersom den både har fått riktigt dåliga betyg från PageSpeed Insights, men också för att min laptop knappt pallar med att ha sidan öppen utan att fläktarna ska gå i full gång och försöka kyla ner datorn det märks tydligt då att sidan innehåller mycket som ska laddas in.  
+De sidor jag har analyserat har haft en relativt enkel design fast med tre olika upplägg, Johan Hedberg med en vänsterställd vertikal meny, Ellen Ekman med en horisontell meny i ovankant och Miriam Bryant utan undersidor men med ett flöde av block med innehåll längs hela sidan.  
 <br>
 
-Jag upplever att runt 3 sekunder är en rimlig laddningstid för webbplatser. Guccis sidor tog uppåt 5 sekunder att ladda och man får vänta på att se produktbilderna vilket jag upplever som störigt. Gucci klarar därmed inte min gräns för laddningstid och jag upplever sidan rent generelt som mycket påfrestande för datorn då den som tidigare nämnt gör att fläktarna går i full gång för att inte överhetta datorn. De andra webbplatserna, stroms.com och tradera.com laddar sidorna inom min gräns så de får ett godkänt resultat med ett undantag för Ströms undersida stroms.com/julklappstips, som laddar på ca 5 sekunder och klarar därför inte min gräns.  
+Om jag tittar på min egen design så ser jag likheter mest med Ellen Ekmans sida där menyn är horisontell i ovankant och med innehållet centrerat. Jag har valt att lägga till förklarande text i menyn istället för att endast visa symboler för de olika menyvalen. De designprinciper som kännetecknar min sida tycker jag är det centrerade innehållet på sidorna och den lugna naturnära färgskalan som skapar en lugn känsla. På undersidorna Rapport och Analys har jag lagt till hover-effekter på länkarna till de olika rapporttexterna och analystexterna som ger en känsla av analoga knappar som trycks ned vilket jag tycker bidrar till den lugna och naturnära känslan.  
 <br>
-
-Slutsats
------------------------
-Ett stort och välkänt märke såsom Gucci har alltså inte lagt tid och resurser på att effektivisera sin webbsidas laddningstid och storlek, har fel format på bilder vilket förlänger laddningstiden och har rent generellt en mycket belastad sida. Den nystartade webbsidan stroms.com är som förväntat bäst i test och har rätt format på bilder och kortast laddningstid, men som däremot ändå laddar in oanvänd javascript och CSS.  
-<br>
-
 
 Övrigt
 -----------------------
