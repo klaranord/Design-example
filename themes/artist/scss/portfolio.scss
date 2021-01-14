@@ -1,0 +1,51 @@
+@import 'variables';
+// Style for portfolio
+.portfolio {
+    margin: 20% 10% 0%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em 1em;
+    padding: 1em;
+    justify-content: center;
+}
+
+// .portfolio-header {
+//     display: grid;
+//     gap: 1px;
+//     grid-template-columns: 1fr 1fr 1fr;
+//     justify-items: center;
+//     margin: 20% 0% 0%;
+// }
+
+.portfolio-title {
+    grid-column: 1/4;
+}
+
+.portfolio-title h1 {
+    color: $nav-a-color;
+}
+
+.portfolio-text {
+    background-color: $highlights-bg-color-opacity;
+}
+
+.portfolio-text p {
+    padding: 0.5em;
+}
+
+.portfolio img {
+    width: 100%;
+}
+
+// @media (max-width: 992px) {
+//     .portfolio {
+//         width: 100%;
+//         grid-template-columns: repeat(2, 1fr);
+//     }
+// }
+
+@media (max-width: 767px) {
+    .portfolio-text {
+        grid-column: 1/4;
+    }
+}

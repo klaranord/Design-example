@@ -1,17 +1,18 @@
 ---
-Logo: image/logo-round.png
-Tagline: Min portfolio för Designkursen
 Social:
-    - title: Länk till sidans github repo.
-      url: https://github.com/klaranord/Design-portfolio
-      icon: fab fa-github-square
-    - title: Länk till kursen Teknisk Webbdesign.
-      url: https://dbwebb.se/kurser/design-v3
-      icon: fas fa-book
-    - title: Dark Mode
-      url: ?action=theme
-      icon: fas fa-moon
-    - title: Destroy session
-      url: ?action=session_destroy
-      icon: fas fa-trash
+    - title: Länk till Spotify
+      url: https://www.spotify.com/se/
+      icon: fab fa-spotify
+    - title: Länk till Facebooksida
+      url: https://www.facebook.com/
+      icon: fab fa-facebook
+    - title: Länk till Youtube
+      url: https://www.youtube.com/
+      icon: fab fa-youtube
+    - title: Länk till Twitter
+      url: https://www.twitter.com/
+      icon: fab fa-twitter
+    - title: Länk till Instagram
+      url: https://www.instagram.com/
+      icon: fab fa-instagram
 ---

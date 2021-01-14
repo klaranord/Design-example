@@ -1,0 +1,114 @@
+@import 'variables';
+//Index page
+
+.indexpage a {
+    width: max-content;
+    font-size: 1.5em;
+    color: $text-color;
+    position: absolute;
+    bottom: 10%;
+    left: 90%;
+    text-transform: uppercase;
+    text-decoration: none;
+    transform: rotate(90deg);
+}
+
+.indexpage i {
+    color: $text-color;
+    font-size: 1em;
+    transform: rotate(270deg);
+}
+
+.artist-title {
+    width: 100%;
+    overflow: hidden;
+}
+
+.artist-slogan {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 1em;
+    background-color: $highlights-bg-color-opacity;
+}
+
+.artist-slogan h2 {
+    font-size: 2em;
+}
+
+.album-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.6em;
+    border-bottom: dotted $text-color;
+}
+
+.play {
+    text-align: center;
+    border: 1px solid $text-color;
+    border-radius: 20px;
+    width: 20%;
+}
+
+.play:hover {
+    background-color: $highlights-bg-color;
+}
+
+.art {
+    color: #fff;
+    display: inline-block;
+    font-size: 17em;
+    animation: 3s slide-left cubic-bezier(0, 0, 0.14, 0.99);
+    animation-fill-mode: forwards;
+    overflow: hidden;
+}
+
+.ist {
+    color: #fff;
+    font-size: 17em;
+    animation: 3s slide-right cubic-bezier(0, 0, 0.14, 0.99);
+    animation-fill-mode: forwards;
+    overflow: hidden;
+}
+
+@keyframes slide-right {
+    from {
+        margin-left: -80%;
+    }
+
+    to {
+        margin-left: 5%;
+    }
+}
+
+@keyframes slide-left {
+    from {
+        margin-right: -80%;
+    }
+
+    to {
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 767px) {
+    .indexpage a {
+        left: 76%;
+    }
+
+    .art {
+        font-size: 5em;
+    }
+
+    .ist {
+        font-size: 5em;
+    }
+
+    .main {
+        margin: 10% 0% 0%;
+        padding: inherit;
+    }
+
+    .play {
+        width: 50%;
+    }
+}

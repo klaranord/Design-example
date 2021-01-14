@@ -6,14 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "watch": "sass klno20/scss/style.scss klno20/css/style.css --no-source-map --watch",
-    "watch-min": "sass klno20/scss/style.scss klno20/css/style.min.css --no-source-map --style compressed --watch",
+    "watch": "sass artist/scss/style.scss artist/css/style.css --no-source-map --watch",
+    "watch-min": "sass artist/scss/style.scss artist/css/style.min.css --no-source-map --style compressed --watch",
     "style": "npm run style-light && npm run style-dark",
     "style-min": "npm run style-light-min && npm run style-dark-min",
-    "style-light": "sass klno20/scss/style.scss klno20/css/style.css --no-source-map",
-    "style-light-min": "sass klno20/scss/style.scss klno20/css/style.min.css --no-source-map --style compressed --watch",
-    "style-dark": "sass klno20/scss/style-dark.scss klno20/css/style-dark.css --no-source-map",
-    "style-dark-min": "sass klno20/scss/style-dark.scss klno20/css/style-dark.min.css --no-source-map --style compressed --watch"
+    "style-light": "sass artist/scss/style.scss artist/css/style.css --no-source-map",
+    "style-light-min": "sass artist/scss/style.scss artist/css/style.min.css --no-source-map --style compressed --watch",
+    "style-dark": "sass artist/scss/style-dark.scss artist/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass artist/scss/style-dark.scss artist/css/style-dark.min.css --no-source-map --style compressed --watch"
   },
   "keywords": [],
   "author": "",

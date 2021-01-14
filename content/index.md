@@ -4,12 +4,24 @@ Description: Startsidan
 icon: fas fa-home
 ---
 
-Min portfolio
-==========================
+<div class="indexpage">
+    <a href="#bottom">Följ mig  
+    <i class="fas fa-chevron-down"></i>
+    </a>
+</div>
 
-<img class="logo-img" src="assets/img/logo.png" alt="Logga klno20"/>
 
+<div class="artist-title">
+    <span class="art">Art</span>
+    <span class="ist">Ist</span>
+</div>
 
-Här kan du läsa om och se min utvecklig genom kursen Teknisk webbdesign och användbarhet, a.k.a *Design* på Blekinge Tekniska Högskola.  
-<br>
-Under _Om_ kan du läsa mer hur denna sida är uppbyggd och vilka tekniker som används. Under _Redovisning_ kan du läsa mer om hur det går för mig genom kursens gång i de redovisningstexter jag skriver för varje kursmoment.
+<div class="artist-slogan">
+    <h2>Lyssna på mitt nya album "X" här</h2>
+
+    <span class="album-row"><p class="track">X</p>      <p class="play">Lyssna <i class="fas fa-compact-disc"></i></p></span>
+    <span class="album-row"><p class="track">X-2</p>     <p class="play">Lyssna <i class="fas fa-compact-disc"></i></p></span>  
+    <span class="album-row"><p class="track">Lilla exet</p>   <p class="play">Lyssna <i class="fas fa-compact-disc"></i></p></span>  
+    <span class="album-row"><p class="track">x.2.0</p>    <p class="play">Lyssna <i class="fas fa-compact-disc"></i></p></span>
+    <span class="album-row"><p class="track">eXtra track</p>    <p class="play">Lyssna <i class="fas fa-compact-disc"></i></p></span>  
+</div>

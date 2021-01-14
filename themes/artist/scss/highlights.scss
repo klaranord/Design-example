@@ -1,0 +1,162 @@
+@import 'variables';
+
+/* style for the highlights page */
+.highlights {
+    display: grid;
+    gap: 1px;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.highlights-button a {
+    text-decoration: none;
+    // -webkit-transition: all 0.5s;
+    // -moz-transition: all 0.5s;
+    // transition: all 0.5s;
+}
+
+
+.highlights h1 {
+    grid-column: span 2;
+    justify-self: center;
+    color: $nav-a-color;
+    font-size: 3em;
+}
+
+.highlights h2 {
+    text-transform: uppercase;
+    background-color: $highlights-bg-color;
+}
+
+// Highlights links
+.highlights-button {
+    width: 18em;
+}
+
+.highlights-button h2 {
+    margin-top: 5.2em;
+}
+
+// Neon style!
+
+// .highlights-button h2:nth-child(1) {
+//   color: #fff;
+//   -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+//   -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+//   animation: neon1 1.5s ease-in-out infinite alternate;
+// }
+//
+// .highlights-button h2:nth-child(1):hover {
+//   color: #FF1177;
+//   -webkit-animation: none;
+//   -moz-animation: none;
+//   animation: none;
+// }
+
+// //Neon hover effect
+// @-webkit-keyframes neon1 {
+//   from {
+//     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
+//   }
+//   to {
+//     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+//   }
+// }
+//
+// @keyframes neon1 {
+//   from {
+//     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
+//   }
+//   to {
+//     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+//   }
+// }
+//
+// /*REEEEEEEEEEESPONSIVE*/
+// @media (max-width: 650px) {
+//   #container {
+//     width: 100%;
+//   }
+//   p {
+//     font-size: 3.5em;
+//   }
+// }
+
+/* Style for the reportpage */
+
+.reportpage {
+    display: grid;
+    gap: 30px;
+}
+
+.reportpage h1 {
+    grid-column: 2;
+    justify-self: center;
+}
+
+.sidebar {
+    grid-column: 1;
+    text-transform: uppercase;
+    margin-left: 2em;
+}
+
+.sidebar a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    border-radius: 20px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.sidebar a:hover {
+    margin-left: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-right: inherit;
+    box-shadow: none;
+}
+
+.report-text {
+    grid-column: 2;
+    margin-bottom: 3em;
+    margin: 1% 10%;
+}
+
+.report-text h3 {
+    font-size: 20px;
+}
+
+// Style for the iframe element
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 767px) {
+    .highlights-button,
+    .highlights h1,
+    .reportpage h1,
+    .report-text, {
+        grid-column: span 2;
+    }
+
+    .sidebar {
+        display: none;
+    }
+}

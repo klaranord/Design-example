@@ -1,0 +1,33 @@
+@import 'variables';
+// Style for the header including navbar changes
+.site-header {
+    position: fixed;
+    color: $nav-a-color;
+}
+
+.site-header a {
+    text-align: left;
+    color: $nav-a-color;
+    text-decoration: none;
+}
+
+.site-header a:hover {
+    color: $nav-a-hover;
+}
+
+.title {
+    float: right;
+}
+
+.flash-image {
+    position: fixed;
+    top: 10%;
+}
+
+.flash-img {
+    width: 120%;
+}
+
+.flash-region {
+    width: auto;
+}
